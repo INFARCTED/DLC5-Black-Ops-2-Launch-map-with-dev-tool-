@@ -82,29 +82,10 @@ namespace WindowsFormsApplication1
                 ginterface0_0.Connect(out ginterface0_0, "default");
                 if (flag)
                 {
-
-                    byte[] data = new byte[4];
-
-                  //  await Task.Delay(2000);
                     button3.Text = "Connected";
                     label1.Text = "Connected";
                     label1.ForeColor = Color.ForestGreen;
-                  //  CPUK.Text = "CPU KEY : " + this.xbx.GetCPUKey();
-               
-
-                    //this.xbx.SetMemory(0xABC79000, Resources.as6hh_3izri);
-                    //DialogResult InjectionAsk = MessageBox.Show("connection so long if you accepte that.", "Custom Image Background injection?", MessageBoxButtons.YesNo);
-                    //if (InjectionAsk == DialogResult.Yes)
-                    //{
-                    //    this.xbx.SetMemory(0xB4994000, Resources.axotu_1ppuq);
-                    //}
-
-                    //B4269000 ui_bgk //soldier 0xB4994000
-                    //0xB4269000 ui_bgk
-                    // 83 0C 75 38
-                    //custom_uio = new byte[] { 0x83, 0x0C, 0x75, 0x38 };
-                    //change via shader
-                    //this.xbx.SetMemory(0xB4993028, custom_uio);
+    
                     UI_OpenToastPopup(0, "menu_mp_killstreak_select", "DLC 5 Build. Dev Tool", "Made by ^2EFK ^7| ^1Youtube.com/^7@INFARCTED-EFKK", 20000);
                     this.xbx.XNotify("Connected.");
                 
@@ -125,3 +106,4 @@ namespace WindowsFormsApplication1
         }
     }
 }
+
