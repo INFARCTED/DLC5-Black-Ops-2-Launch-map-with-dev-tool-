@@ -1,0 +1,11 @@
+c:\users\aziz\documents\visual studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\WindowsFormsApplication1.exe.config
+c:\users\aziz\documents\visual studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\WindowsFormsApplication1.exe
+c:\users\aziz\documents\visual studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\WindowsFormsApplication1.pdb
+c:\users\aziz\documents\visual studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\JRPC.dll
+c:\users\aziz\documents\visual studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\xdrpc.dll
+c:\users\aziz\documents\visual studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Form1.resources
+c:\users\aziz\documents\visual studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Properties.Resources.resources
+c:\users\aziz\documents\visual studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.csproj.GenerateResource.Cache
+c:\users\aziz\documents\visual studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.exe
+c:\users\aziz\documents\visual studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.pdb
+c:\users\aziz\documents\visual studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
