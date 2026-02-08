@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -41,34 +41,34 @@ namespace WindowsFormsApplication1
             switch (comboBox1.SelectedIndex)
             {
                 case 0:
-                    Cbuf_AddText("wait 250; devmap zm_prototype; r_drawSceneModels 0; r_drawSkinnedmodels 0; r_drawSceneEnts 0;");
+                    Cbuf_AddText("devmap zm_prototype");
                     break;
                 case 1:
-                    Cbuf_AddText("wait 250; devmap zm_asylum; r_drawSceneModels 0; r_drawSkinnedmodels 0; r_drawSceneEnts 0;");
+                    Cbuf_AddText("devmap zm_asylum");
                     break;
                 case 2:
-                    Cbuf_AddText("wait 250; devmap zm_sumpf; r_drawSceneModels 0; r_drawSkinnedmodels 0; r_drawSceneEnts 0;");
+                    Cbuf_AddText("devmap zm_sumpf");
                     break;
                 case 3:
-                    Cbuf_AddText("wait 250; devmap zm_factory; r_drawSceneModels 0; r_drawSkinnedmodels 0; r_drawSceneEnts 0;");
+                    Cbuf_AddText("devmap zm_factory");
                     break;
                 case 4:
-                    Cbuf_AddText("wait 250; devmap zm_theater; r_drawSceneModels 0; r_drawSkinnedmodels 0; r_drawSceneEnts 0;");
+                    Cbuf_AddText("devmap zm_theater");
                     break;
                 case 5:
-                    Cbuf_AddText("wait 250; devmap zm_pentagon; r_drawSceneModels 0; r_drawSkinnedmodels 0; r_drawSceneEnts 0;");
+                    Cbuf_AddText("devmap zm_pentagon");
                     break;
                 case 6:
-                    Cbuf_AddText("wait 250; devmap zm_cosmodrome; r_drawSceneModels 0; r_drawSkinnedmodels 0; r_drawSceneEnts 0;");
+                    Cbuf_AddText("devmap zm_cosmodrome");
                     break;
                 case 7:
-                    Cbuf_AddText("wait 250; devmap zm_moon; r_drawSceneModels 0; r_drawSkinnedmodels 0; r_drawSceneEnts 0;");
+                    Cbuf_AddText("devmap zm_moon");
                     break;
                 case 8:
-                    Cbuf_AddText("wait 250; devmap zm_temple; r_drawSceneModels 0; r_drawSkinnedmodels 0; r_drawSceneEnts 0;");
+                    Cbuf_AddText("devmap zm_temple");
                     break;
                 case 9:
-                    Cbuf_AddText("wait 250; devmap zm_tomb; r_drawSceneModels 0; r_drawSkinnedmodels 0; r_drawSceneEnts 0;");
+                    Cbuf_AddText("devmap zm_tomb");
                     break;
             }
         }
@@ -85,12 +85,9 @@ namespace WindowsFormsApplication1
                     button3.Text = "Connected";
                     label1.Text = "Connected";
                     label1.ForeColor = Color.ForestGreen;
-    
+
                     UI_OpenToastPopup(0, "menu_mp_killstreak_select", "DLC 5 Build. Dev Tool", "Made by ^2EFK ^7| ^1Youtube.com/^7@INFARCTED-EFKK", 20000);
                     this.xbx.XNotify("Connected.");
-                
-
-
                 }
             }
             catch
@@ -106,4 +103,3 @@ namespace WindowsFormsApplication1
         }
     }
 }
-
